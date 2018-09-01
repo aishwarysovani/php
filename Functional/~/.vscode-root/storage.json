@@ -58,7 +58,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+Shift+W",
+            "label": "Ctrl+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -466,5 +466,12 @@
                 "height": 716
             }
         }
+    },
+    "pickerWorkingDir": "/var/www/html",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///var/www/html/Functional"
+        ],
+        "files": []
     }
 }
