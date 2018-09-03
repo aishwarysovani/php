@@ -1,10 +1,11 @@
 <?php
+include 'utility.php';
 function distance()
 {
     $x1=0;$y1=0;
     echo"enter value for x2 and y2";
-    $x2=readline();
-    $y2=readline();
+    $x2=filternum();
+    $y2=filternum();
     if($x2<0 || $y2<0)
     {
         echo"enter positive values";

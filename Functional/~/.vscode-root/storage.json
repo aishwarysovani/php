@@ -21,6 +21,11 @@
             "label": "Ctrl+Shift+T",
             "isNative": true
         },
+        "workbench.action.openRecent": {
+            "id": "workbench.action.openRecent",
+            "label": "Ctrl+R",
+            "isNative": true
+        },
         "workbench.action.files.save": {
             "id": "workbench.action.files.save",
             "label": "Ctrl+S",
@@ -58,7 +63,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -457,13 +462,20 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "backupPath": "/var/www/html/Functional/~/.vscode-root/Backups/1535696958252",
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/var/www/html/Functional",
+                "external": "file:///var/www/html/Functional",
+                "path": "/var/www/html/Functional",
+                "scheme": "file"
+            },
+            "backupPath": "/var/www/html/Functional/~/.vscode-root/Backups/c52540e5c99a73cb0b607f930b36a187",
             "uiState": {
-                "mode": 1,
-                "x": 171,
-                "y": 52,
-                "width": 1024,
-                "height": 716
+                "mode": 0,
+                "x": 65,
+                "y": 24,
+                "width": 1301,
+                "height": 744
             }
         }
     },

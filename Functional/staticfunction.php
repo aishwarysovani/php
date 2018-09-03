@@ -1,29 +1,13 @@
 <?php
-function fact($n)
-{
-    if ($n === 0)
-{ 
-    return 1;
-}
-else 
-{
-    return $n * fact($n-1); 
-}
-}
-echo fact(5);
+include 'utility.php';
+echo'enter any no to find factorial';
+$n=filternum();
+$num=fact($n);
+echo 'factorial by recursive function:' . $num;
 echo"\n";
-function fact1($n)
-{
-    $result = 1;
-        while ($n > 0) {
-            $result *= $n;
-            $n--;
-        }
-        return $result;
-}
-echo fact1(5);
-echo"\n";
-if(fact(5)==fact1(5))
+$num1=fact1($n);
+echo 'factorial by itrative function:' . $num1;
+if($num==$num1)
 {
     echo"both give equal result";
 }
