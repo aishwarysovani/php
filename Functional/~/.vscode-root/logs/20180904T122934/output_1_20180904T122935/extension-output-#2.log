@@ -1,0 +1,33 @@
+[Info  - 12:29:37 PM] 15 files total
+[Info  - 12:29:37 PM] Indexing project for definitions and static references
+Parsing file:///var/www/html/Functional/harmonicno.php
+Parsing file:///var/www/html/Functional/utility.php
+Parsing file:///var/www/html/Functional/primefact.php
+Parsing file:///var/www/html/Functional/euclideandist.php
+Parsing file:///var/www/html/Functional/poweroftwo.php
+Parsing file:///var/www/html/Functional/test.php
+Parsing file:///var/www/html/Functional/2darray.php
+Parsing file:///var/www/html/Functional/timelapsed.php
+Parsing file:///var/www/html/Functional/coupon.php
+Parsing file:///var/www/html/Functional/staticfunction.php
+Parsing file:///var/www/html/Functional/distincttriplet.php
+Parsing file:///var/www/html/Functional/leapyear.php
+Parsing file:///var/www/html/Functional/gambler.php
+Parsing file:///var/www/html/Functional/coinflip.php
+[Info  - 12:29:37 PM] Indexing project for dynamic references
+Parsing file:///var/www/html/Functional/harmonicno.php
+Parsing file:///var/www/html/Functional/utility.php
+Parsing file:///var/www/html/Functional/primefact.php
+Parsing file:///var/www/html/Functional/euclideandist.php
+Parsing file:///var/www/html/Functional/poweroftwo.php
+Parsing file:///var/www/html/Functional/test.php
+Parsing file:///var/www/html/Functional/2darray.php
+Parsing file:///var/www/html/Functional/timelapsed.php
+Parsing file:///var/www/html/Functional/coupon.php
+Parsing file:///var/www/html/Functional/staticfunction.php
+Parsing file:///var/www/html/Functional/distincttriplet.php
+Parsing file:///var/www/html/Functional/leapyear.php
+Parsing file:///var/www/html/Functional/gambler.php
+Parsing file:///var/www/html/Functional/coinflip.php
+[Info  - 12:29:37 PM] 0 Packages
+[Info  - 12:29:37 PM] All 15 PHP files parsed in 0 seconds. 140 MiB allocated.

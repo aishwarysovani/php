@@ -3,12 +3,7 @@ include 'utility.php';
 echo"enter value for total coin tossed:";
 $num=filternum();                            //check input is number or not
 $num=positive($num);                         //for checking inputed number is positive or not
-$n=tossed($num);                             //to calculate greter percentage head or tail
-if($n=='1')
-    {
-    echo"percentage of head  is greater";
-    }
-else{
-    echo"percentage of tail is greater";
-    }
+$n=tossed($num);   
+echo'percentage of head occarance:' . $head_per . "\n";
+echo'percentage of tail occarance:' . $tail_per . "\n";                         
 ?>

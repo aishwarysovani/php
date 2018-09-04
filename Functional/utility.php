@@ -1,13 +1,13 @@
 <?php
+
 //function for user name validation
 function getstring()
-{
-    fscanf(STDIN,'%s',$str);    
-    
-    if (filter_var($str, FILTER_VALIDATE_INT))
+{    
+    fscanf(STDIN,'%s',$str);
+    if (!filter_var($str, FILTER_VALIDATE_INT))
     {
         echo 'enter only alphabets for user name ';
-        getstring();
+        return getstring();
 
     }
     else
@@ -16,15 +16,15 @@ function getstring()
        
     }
 }
- 
+
 //function for validating number
 function filternum()
 {
-    fscanf(STDIN,'%d',$num);
+    $num=readline();
     if (!filter_var($num, FILTER_VALIDATE_INT))
     {
         echo 'enter only numbers';
-        filternum();
+        return filternum();
 
     }
     else 
@@ -39,9 +39,11 @@ function positive($num)
     if($num<0)
     {
         echo"enter positive number";
-        filternum();
+        return filternum();
                                      
     }
+    else 
+    return $num;
     
 }
 
@@ -55,22 +57,15 @@ function positive($num)
     for($i=0;$i<$num;$i++)
     {
         $a[$i]=rand(0,1);
-    }
-    for($i=0;$i<$num;$i++)
-    {
-    if($a[$i]<0.5)
+        if($a[$i]<0.5)
         $head++;
-    else
+        else
         $tail++;
     }
-    $head_per=( $head / 100 ) * $num;            //head percentage calculation
-    $tail_per=( $tail / 100 ) * $num;            //tail percentage calculation
-    if($head_per>$tail_per)
-    {
-     return '1';   
-    }
-    else
-    return '0';
+    
+    $head_per=( $head / $num ) * 100;            //head percentage calculation
+    $tail_per=( $tail / $num ) * 100;            //tail percentage calculation
+    
 }
 
 //function to find out leap year or not
@@ -107,8 +102,7 @@ function power($num)
     else
     {
         echo"enter values in 2 to 31";
-        $num=filternum();
-        power($num);
+         return cal();
     }
 }
 
@@ -131,6 +125,7 @@ function harmonic($num)
 //function for prime factor
 function primefact($num)
 {
+    echo'factors= ';
     while($num % 2 == 0)
     {
         echo 2," ";
@@ -153,37 +148,38 @@ function primefact($num)
 }
 
 
-//function for fimd out triplets in array
+//function for find out triplets in array
 function triplet($num)
 {
+    $found=false;
     echo"enter " . $num . " number";
-    $m=0;
     $a=array($num);
     for($i=0;$i<$num;$i++)
-{
-    //$a[$i]=readline();
+   {
     fscanf(STDIN,'%d',$a[$i]);
-}
-for($l=0;$l<$num-2;$l++)
+    }
+     for($l=0;$l<$num-2;$l++)
 {
     for($m=1;$m<$num-1;$m++)
     {
         for($n=2;$n<$num;$n++)
         {
-            $sum=$a[$l]+$a[$m]+$a[$n];
-            if($sum==0)
+            if($a[$l]+$a[$m]+$a[$n]==0)
+            {
             echo"triplets found at:" . $a[$l] . $a[$m] . $a[$n];
-            $m=1;
-            //echo"\n";
+            echo"\n";
+            $found=true;
+            }
             
         }
         
     }
     
 }
-if($m == 0)
+if($found==false)
+{
     echo'triplets not found';
-
+}
 }
 
 
@@ -241,20 +237,49 @@ function coupon($num)
 //function to read 2d array
 function read($m,$n)
 {
-    $a=array($m,$n);
-    $a[][]=$a;
+    $a[][]=array($m,$n);
     for($i=0;$i<$m;$i++)
     {
         for($j=0;$j<$n;$j++)
         {
-            $a[$i][$j]=readline();
-            echo$a[$i][$j]; 
-            //settype($a[$i][$j],'bool');
-            //var_dump($a[$i][$j]);
+            $a[$i][$j]=filternum(); 
+            
         }
     }
+    for($i=0;$i<$m;$i++)
+    {
+        for($j=0;$j<$n;$j++)
+        {
+            echo $a[$i][$j];
+            
+        }
+    }
+    
+}
+
+//function to calculate root of quadratic equation
+function root($a,$b,$c)
+{
+    global $delta,$r1,$r2;
+    $delta=($b*$b)-4*$a*$c;
+    $r1=(-$b+sqrt($delta))/(2*$a);
+    $r2=(-$b-sqrt($delta))/(2*$a);
 }
 
 
+//function to filter float values
+/*function filterfloat()
+{
+    fscanf(STDIN,'%f',$num);
+    if (filter_var($num, FILTER_VALIDATE_FLOAT))
+    {
+      return $num;
+    }
+    else
+    {
+        echo 'enter time in mm:ss format ';
+        return filterfloat();
+    } 
+}*/
 
 ?>

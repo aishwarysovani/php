@@ -1,0 +1,57 @@
+[2018-09-04 12:06:47.131] [sharedprocess] [info] main {"machineId":"a59b397e4339d33f6882b9064d175718141573333ea0ff14e7d55e71e0d3348e"}
+[2018-09-04 12:06:47.161] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:47.177] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:47.180] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:47.218] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:47.220] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:47.917] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:47.919] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:50.537] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:50.542] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:50.542] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:50.606] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:50.609] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:50.617] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:50.641] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:54.982] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:55.003] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:57.613] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:57.615] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:57.617] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:57.627] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:57.628] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:57.637] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:06:57.698] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:57.700] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:57.703] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:06:57.707] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:07:00.825] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:00.827] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:27.134] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-09-04 12:07:28.241] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:28.270] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:07:30.810] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:30.811] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:30.815] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:30.827] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:30.829] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:30.838] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:30.903] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:07:30.905] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:07:30.907] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:07:30.909] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:07:33.958] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:07:33.959] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:12:33.984] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:15:32.167] [sharedprocess] [info] Installing extension: php-intellisense
+[2018-09-04 12:15:32.169] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-04 12:15:35.530] [sharedprocess] [info] Downloaded extension: php-intellisense /tmp/903eedfc-b9dd-4b3f-a85a-aab387cdf516
+[2018-09-04 12:15:36.512] [sharedprocess] [info] Extracted extension to /home/bridgeit/.vscode/extensions/.felixfbecker.php-intellisense-2.3.5: felixfbecker.php-intellisense-2.3.5
+[2018-09-04 12:15:36.512] [sharedprocess] [info] Renamed to /home/bridgeit/.vscode/extensions/felixfbecker.php-intellisense-2.3.5
+[2018-09-04 12:15:36.512] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense-2.3.5
+[2018-09-04 12:15:36.553] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-intellisense
+[2018-09-04 12:15:36.679] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-04 12:15:36.702] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-04 12:17:34.024] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-04 12:22:34.034] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-04 12:27:34.045] [sharedprocess] [info] Scanned user extensions: 3

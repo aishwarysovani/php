@@ -1,7 +1,7 @@
 <?php
 include 'utility.php';
 echo"enter size of array:";
-$num=readline();
+$num=filternum();
 triplet($num);
 
 ?>

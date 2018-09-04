@@ -9,9 +9,9 @@ $num1=fact1($n);
 echo 'factorial by itrative function:' . $num1;
 if($num==$num1)
 {
-    echo"both give equal result";
+    echo"\n both give equal result";
 }
 else{
-    echo"both give differnt result";
+    echo"\n both give differnt result";
 }
 ?>
