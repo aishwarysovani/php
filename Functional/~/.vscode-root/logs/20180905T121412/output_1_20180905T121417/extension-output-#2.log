@@ -1,0 +1,37 @@
+[Info  - 12:14:24 PM] 17 files total
+[Info  - 12:14:24 PM] Indexing project for definitions and static references
+Parsing file:///var/www/html/Functional/harmonicno.php
+Parsing file:///var/www/html/Functional/utility.php
+Parsing file:///var/www/html/Functional/primefact.php
+Parsing file:///var/www/html/Functional/euclideandist.php
+Parsing file:///var/www/html/Functional/poweroftwo.php
+Parsing file:///var/www/html/Functional/windchill.php
+Parsing file:///var/www/html/Functional/test.php
+Parsing file:///var/www/html/Functional/2darray.php
+Parsing file:///var/www/html/Functional/coupon.php
+Parsing file:///var/www/html/Functional/staticfunction.php
+Parsing file:///var/www/html/Functional/distincttriplet.php
+Parsing file:///var/www/html/Functional/leapyear.php
+Parsing file:///var/www/html/Functional/quadratic.php
+Parsing file:///var/www/html/Functional/gambler.php
+Parsing file:///var/www/html/Functional/coinflip.php
+Parsing file:///var/www/html/Functional/usernameexchange.php
+[Info  - 12:14:24 PM] Indexing project for dynamic references
+Parsing file:///var/www/html/Functional/harmonicno.php
+Parsing file:///var/www/html/Functional/utility.php
+Parsing file:///var/www/html/Functional/primefact.php
+Parsing file:///var/www/html/Functional/euclideandist.php
+Parsing file:///var/www/html/Functional/poweroftwo.php
+Parsing file:///var/www/html/Functional/windchill.php
+Parsing file:///var/www/html/Functional/test.php
+Parsing file:///var/www/html/Functional/2darray.php
+Parsing file:///var/www/html/Functional/coupon.php
+Parsing file:///var/www/html/Functional/staticfunction.php
+Parsing file:///var/www/html/Functional/distincttriplet.php
+Parsing file:///var/www/html/Functional/leapyear.php
+Parsing file:///var/www/html/Functional/quadratic.php
+Parsing file:///var/www/html/Functional/gambler.php
+Parsing file:///var/www/html/Functional/coinflip.php
+Parsing file:///var/www/html/Functional/usernameexchange.php
+[Info  - 12:14:24 PM] 0 Packages
+[Info  - 12:14:24 PM] All 17 PHP files parsed in 0 seconds. 140 MiB allocated.
