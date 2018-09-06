@@ -20,7 +20,7 @@ function getstring()
 //function for validating number
 function filternum()
 {
-    $num=readline();
+    fscanf(STDIN,'%d',$num);
     if (!filter_var($num, FILTER_VALIDATE_INT))
     {
         echo 'enter only numbers';
@@ -337,98 +337,5 @@ function read2($m,$n)
 }
 
 
-//function for printboard
 
-/*function print_board($board) {
-	echo printChar($board[0][0]);
-	echo"|";
-	echo printChar($board[0][1]);
-	echo"|";
-	echo printChar($board[0][2]);
-	echo"\n -----";
-	echo printChar($board[1][0]);
-	echo"|";
-	echo printChar($board[1][1]);
-	echo"|";
-	echo printChar($board[1][2]);
-	echo"\n -----";
-	echo printChar($board[2][0]);
-	echo"|";
-	echo printChar($board[2][1]);
-	echo"|";
-	echo printChar($board[2][2]);
-}*/
-
- /*function printChar($b) {
-        switch($b) {
-        case $empty:
-            return ' ';
-        case $user:
-            return 'X';
-        case $computer:
-            return 'O';
-        }
-        return ' ';
- }*/
-
-
- /*function checkWinner($board)
- {
-    if(($board[0][0] == $board[0][1]) && ($board[0][1] == $board[0][2]))
-    return $board[0][0];
-
-// middle row
-if(($board[1][0] == $board[1][1]) && ($board[1][1] == $board[1][2]))
-    return $board[1][0];
-
-// bottom row
-if(($board[2][0] == $board[2][1]) && ($board[2][1] == $board[2][2]))
-    return $board[2][0];
-
-// Check verticals
-
-// left column
-if(($board[0][0] == $board[1][0]) && ($board[1][0] == $board[2][0]))
-    return $board[0][0];
-
-// middle column
-if(($board[0][1] == $board[1][1]) && ($board[1][1] == $board[2][1]))
-    return $board[0][1];
-
-// right column
-if(($board[0][2] == $board[1][2]) && ($board[1][2] == $board[2][2]))
-    return $board[0][2];
-
-// Check diagonals
-// one diagonal
-if(($board[0][0] == $board[1][1]) && ($board[1][1] == $board[2][2]))
-    return $board[0][0];
-
-// the other diagonal
-if(($board[0][2] == $board[1][1]) && ($board[1][1] == $board[2][0]))
-    return $board[0][2];
-
-// Check if the board is full
-if($board[0][0] == $empty || 
-       $board[0][1] == $empty  || 
-       $board[0][2] == $empty || 
-   $board[1][0] ==$empty  ||
-   $board[1][1] == $empty  ||
-   $$board[1][2] == $empty  ||
-   $board[2][0] == $empty  ||
-   $board[2][1] == $empty  ||
-   $board[2][2] == $empty )
-    return $none;
-
-return $stalemate;
-}
-
-function computer_move($board) {
-	$move = (int)(rand()*9);
-
-	while($board[$move/3][$move%3] != $empty) 
-	    $move = (int)(rand()*9);
-
-	return $move;
-}*/
 ?>

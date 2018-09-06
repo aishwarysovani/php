@@ -5,24 +5,25 @@ global $none;
 global $user;
 global $computer;
 global $stalemate;
-$empty=0;$none=0;$user=1;$computer=2;$stalemate=3;
+$empty=0;
+$none=0;$user=1;$computer=2;$stalemate=3;
 
 $turn=$user;
-$board=array(3,3);
+$board=array_fill(0, 3, array_fill(0, 3, " "));
 $move;$winner;
 echo"This is a tic-tac-toe game";
 echo"You are playing against the computer!";
-echo"Enter 1-9 to indicate your move";
+echo"Enter 0-8 to indicate your move";
 print_board($board);
 while(true) 
 {
     if($turn == $user) 
     {
-    echo"Your move";
+    echo"\n Your move";
     $move = -1;
-    while ($move<0 || $move>9 || $board[$move/3][$move%3] != $empty)
+    while ($move<0 || $move>=9 || $board[$move/3][$move%3] != $empty)
     {
-        echo"Please enter your move(0-9): ";
+        echo"\n Please enter your move(0-8): ";
         $move =filternum();
     }
     }
@@ -64,23 +65,27 @@ switch($winner)
 
     
     function print_board($board) {
+        echo"\n";
         echo printChar($board[0][0]);
-        echo"\n |";
+        echo"|";
         echo printChar($board[0][1]);
         echo"|";
         echo printChar($board[0][2]);
-        echo"\n -----";
+        echo"\n";
+        echo"-----\n";
         echo printChar($board[1][0]);
-        echo"\n |";
+        echo"|";
         echo printChar($board[1][1]);
         echo"|";
         echo printChar($board[1][2]);
-        echo"\n -----";
+        echo"\n";
+        echo"-----\n";
         echo printChar($board[2][0]);
-        echo"\n |";
+        echo"|";
         echo printChar($board[2][1]);
         echo"|";
         echo printChar($board[2][2]);
+        echo"\n";
         }
 
 function printChar($b) {
@@ -97,6 +102,7 @@ function printChar($b) {
 
  function checkWinner($board)
  {
+     $empty=0;$none=0;
     if(($board[0][0] == $board[0][1]) && ($board[0][1] == $board[0][2]))
     return $board[0][0];
 
@@ -135,9 +141,9 @@ if(($board[0][2] == $board[1][1]) && ($board[1][1] == $board[2][0]))
 if($board[0][0] == $empty || 
     $board[0][1] == $empty  || 
     $board[0][2] == $empty || 
-    $board[1][0] ==$empty  ||
+    $board[1][0] == $empty  ||
     $board[1][1] == $empty  ||
-    $$board[1][2] == $empty  ||
+    $board[1][2] == $empty  ||
     $board[2][0] == $empty  ||
     $board[2][1] == $empty  ||
     $board[2][2] == $empty )
@@ -147,10 +153,11 @@ return $stalemate;
 }
 
 function computer_move($board) {
-	$move = rand(0,9);
+    $empty=0;
+	$move = intval(rand()%9);
 
-	while($board[$move/3][$move%3] != $empty) 
-	    $move = rand(0,9);
+	while($move<0 || $move>=9 || $board[$move/3][$move%3] != $empty) 
+	    $move = intval(rand()%9);
 
 	return $move;
     }
