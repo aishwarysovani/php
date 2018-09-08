@@ -34,3 +34,7 @@ fatal: no upstream configured for branch 'master'
 fatal: no upstream configured for branch 'master'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
+> git show :Functional/tictactoe.php
+> git show :Functional/utility.php
+> git show :Functional/gambler.php
+> git show :Functional/tictactoe.php

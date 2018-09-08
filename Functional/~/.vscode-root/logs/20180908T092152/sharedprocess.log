@@ -1,0 +1,44 @@
+[2018-09-08 09:21:55.915] [sharedprocess] [info] main {"machineId":"a59b397e4339d33f6882b9064d175718141573333ea0ff14e7d55e71e0d3348e"}
+[2018-09-08 09:21:55.947] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:21:55.968] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:21:55.971] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:21:56.005] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:21:56.007] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:21:56.914] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:21:56.916] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:22:35.919] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-09-08 09:26:56.941] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:31:56.955] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:36:56.967] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:41:56.989] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:46:57.004] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:49:13.674] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:49:13.678] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:49:13.679] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:49:13.719] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:49:13.748] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:49:13.752] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:49:13.763] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:50:24.312] [sharedprocess] [info] Installing extension: vscode-phpfmt
+[2018-09-08 09:50:24.316] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-08 09:50:25.442] [sharedprocess] [info] Downloaded extension: vscode-phpfmt /tmp/5d6d94d5-2e06-446e-a351-0a72452647b8
+[2018-09-08 09:50:25.522] [sharedprocess] [info] Extracted extension to /home/bridgeit/.vscode/extensions/.kokororin.vscode-phpfmt-1.0.30: kokororin.vscode-phpfmt-1.0.30
+[2018-09-08 09:50:25.522] [sharedprocess] [info] Renamed to /home/bridgeit/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30
+[2018-09-08 09:50:25.522] [sharedprocess] [info] Installation completed. kokororin.vscode-phpfmt-1.0.30
+[2018-09-08 09:50:25.576] [sharedprocess] [info] Extensions installed successfully: kokororin.vscode-phpfmt
+[2018-09-08 09:50:25.714] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:50:25.737] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:51:57.021] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.830] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.835] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.838] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.855] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.856] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.869] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:36.945] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:54:36.948] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:54:36.950] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:54:36.952] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-08 09:54:40.041] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:54:40.043] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-08 09:59:40.068] [sharedprocess] [info] Scanned user extensions: 4
