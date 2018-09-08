@@ -4,9 +4,15 @@ echo'enter value for gambler stake: ';
 $num=filternum();
 echo'enter value for goal: ';
 $goal=filternum();
+if($num>$goal)
+{
+  echo"\n enter goal greter than stake:";
+  $goal=filternum();
+}
 echo'how many trial you will perfrom: ';
 $trial=filternum();
 $bet=0;$win=0;
+
 for($i=0;$i<$trial;$i++)
 {
     $cash=$num;

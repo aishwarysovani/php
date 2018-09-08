@@ -113,7 +113,8 @@ function harmonic($num)
     
     for($i=1;$i<$num;$i++)
     {
-        $har=$har+(1/$i);
+       echo $har . "+(1/" . $i . ")";
+       $har=$har+(1/$i);
     }
     
     return $har;

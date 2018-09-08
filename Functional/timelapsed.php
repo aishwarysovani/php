@@ -26,11 +26,11 @@ class StopWatch {
   echo "Elapsed time: " . StopWatch::elapsed() . " seconds";
   $flag=true;
   }
-  elseif($num < 1)
-  {
-    echo"enter only 1 to stop";
-    $num=filternum();
-  }
+  // elseif($num < 1)
+  // {
+  //   echo"enter only 1 to stop";
+  //   $num=filternum();
+  // }
   else
   {
     echo"enter only 1 to stop";
